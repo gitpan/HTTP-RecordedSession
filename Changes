@@ -1,5 +1,9 @@
 Revision history for Perl extension HTTP::RecordedSession.
 
+0.05  Sun May 19 00:45:00 2002
+    - added PREREQ_PM = 'Storable', to Makefile.PL to force install
+      of Storable.pm.
+
 0.04  Tue May 14 16:04:00 2002
     - added methods to interface with HTTP::WebTest
     - added a parameter to allow user to specify location of config file

@@ -4,4 +4,5 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     'NAME'	=> 'HTTP::RecordedSession',
     'VERSION_FROM' => 'RecordedSession.pm', # finds $VERSION
+    'PREREQ_PM'    => { 'Storable' => 0, },
 );
